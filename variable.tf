@@ -2,7 +2,7 @@
 # VPC-CIDR BLOCK
 ########################################################################################
 
-variable "vpc_cidr_value" { # VPC-CIDR value 
+variable "vpc_cidr_value" {                   # VPC-CIDR value 
   description = "CIDR value for vpc creation" # description in order to know more about this variable
   type        = string  # This is the type of data that we are storing inside this variable for eg string, bool
   default     = "10.0.0.0/16" # This is the value that we are storing in this variable
