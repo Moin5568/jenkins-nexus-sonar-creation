@@ -20,4 +20,4 @@ this will apply that execution plan in AWS cloud
 
 
 # terraform destroy
-It will destroy all the resources created with this code
+It will destroy all the resources created with this code 
