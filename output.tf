@@ -1,5 +1,5 @@
 output "VPC-id" {   # This will output the value of vpc id in terminal
-    value = aws_vpc.our-vpc.id 
+    value = aws_vpc.our-vpc.id  
 }
 
 output "Instance-id" { # This will output the value of instance id in terminal

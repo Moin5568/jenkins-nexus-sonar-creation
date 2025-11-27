@@ -8,7 +8,7 @@ resource "aws_iam_role" "our-iam-role" {
   "Statement": [
     {
       "Sid": "",
-      "Effect": "Allow",
+      "Effect": "Allow", 
       "Principal": {
         "Service": [
           "ec2.amazonaws.com"

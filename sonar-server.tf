@@ -11,7 +11,7 @@
 #     }
 #      owners = ["099720109477"]  # this is the owner of the OS, which can be found in AMI section in EC2
 # }
-
+ 
 
 resource "aws_instance" "sonar-server" {   # we are creating a new instance for jenkins-server
     ami = data.aws_ami.latest.id    # we are using the latest ami that we fetched earlier

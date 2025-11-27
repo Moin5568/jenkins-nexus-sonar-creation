@@ -4,7 +4,7 @@
 #                   Docker Installation
 ###############################################################################################################
 
-# Add Docker's official GPG key:
+# Add Docker's official GPG key: 
 # sudo apt-get update -y
 # sudo apt-get install -y ca-certificates curl gnupg
 # sudo install -m 0755 -d /etc/apt/keyrings

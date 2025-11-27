@@ -11,7 +11,7 @@ resource "aws_vpc" "our-vpc" {   # "aws-vpc" is api which helps to create AWS VP
 }
 
 ########################################################################################
-# AWS IGW CREATION
+# AWS IGW CREATION 
 ########################################################################################
 
 resource "aws_internet_gateway" "our-igw" { # "aws_internet_gateway" will help to create igw abd our-igw is code name 
