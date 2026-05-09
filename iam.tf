@@ -21,12 +21,12 @@ resource "aws_iam_role" "our-iam-role" {
 EOF
 }
 
-  
+
 
 
 resource "aws_iam_role_policy_attachment" "ec2-policy" {
-    role = aws_iam_role.our-iam-role.name
-    policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
+  role       = aws_iam_role.our-iam-role.name
+  policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
 }
 
 /*
@@ -40,10 +40,10 @@ resource "aws_iam_role_policy_attachment" "ec2-policy" {
 */
 
 resource "aws_iam_instance_profile" "our-instance-profile" {
-    name = "jenkins-instance-profile"
-    role = aws_iam_role.our-iam-role.name
-   # role = data.aws_iam_roles.my-available-role.name
-  
+  name = "jenkins-instance-profile"
+  role = aws_iam_role.our-iam-role.name
+  # role = data.aws_iam_roles.my-available-role.name
+
 }
 
 /*

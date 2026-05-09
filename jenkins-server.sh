@@ -6,7 +6,7 @@
 ################################################################################################
 
 apt update -y  # It will update repo 
-apt install openjdk-17-jre -y # It will install Openjdk 
+sudo apt install fontconfig openjdk-21-jre -y # It will install Openjdk 
 
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null  # This will update the repository for jenkins
