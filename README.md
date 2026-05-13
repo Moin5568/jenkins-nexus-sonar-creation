@@ -1,6 +1,4 @@
-# terraform-vpc-jenkins-DB
 
-This is the code for creating infrastructure in AWS cloud.  when you install terraform and aws cli and configure aws cli this code will run.
 
 # in order to run this code do following steps
 
